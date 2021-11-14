@@ -1,0 +1,159 @@
+
+
+#blog {
+    width: 100%;
+    box-sizing: border-box;
+}
+.blog {
+    width: 100%;
+    
+}
+.blog h4 {
+    color:black;
+}
+.blog-one {
+    width: 100%;
+    padding-top: 50px;
+    background-color: #f8f9fa;
+    margin-bottom: 30px;
+}
+.blog-one-sub {
+    width: 60%;
+   
+    margin: auto;
+     
+    text-align: center;
+}
+.blog-one-sub-content {
+    width: 60%;
+    margin: auto;
+}
+.blog-one-sub-content h1 {
+    letter-spacing: 2px;
+    font-size: 1.75rem;
+    font-family: "Poppins", sans-serif;
+}
+.blog-one-sub-content hr {
+    width: 5%;
+    height: 2px;
+    background-color: red;
+}
+.blog-one-sub-content p {
+    color: #95a0ab ;
+    text-align: center;
+}
+
+.blog-two {
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: #f8f9fa;
+}
+.blog-two-sub {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+     
+    margin: auto;
+    position: relative;
+}
+.blog-two-sub-1 {
+    width: 32%; height: 435px;
+     
+    position: relative;
+    top:0;
+    transition: all 0.5s;
+}
+.blog-two-sub-1:hover {
+    top:-10px;
+}
+.blog-two-sub-1 img {
+    width: 100%; height:238px;
+}
+.blog-two-sub-1 h5 {
+    color: #95a0ab ;
+}
+.blog-two-sub-1 h4:hover {
+    color:red;
+    cursor: pointer;
+}
+.blog-two-sub-1 a {
+    text-decoration: none;
+    color:red;
+}
+.blog-two-sub-1 a:hover {
+    color:black;
+}
+
+/*  sub1-end */
+.blog-two-sub-2 {
+    width: 32%; height: 435px;
+     
+    position: relative;
+    top:0;
+    transition: all 0.5s;
+}
+.blog-two-sub-2:hover {
+    top:-10px;
+}
+.blog-two-sub-2 img {
+    width: 100%; height:238px;
+}
+.blog-two-sub-2 h5 {
+    color: #95a0ab ;
+}
+.blog-two-sub-2 h4:hover {
+    color:red;
+    cursor: pointer;
+}
+.blog-two-sub-2 a {
+    text-decoration: none;
+    color:red;
+}
+.blog-two-sub-2 a:hover {
+    color:black;
+}
+
+/* end sub-2 */
+
+.blog-two-sub-3 {
+    width: 32%; height: 435px;
+     
+    position: relative;
+    top:0;
+    transition: all 0.5s;
+}
+.blog-two-sub-3:hover {
+    top:-10px;
+}
+.blog-two-sub-3 img {
+    width: 100%; height:238px;
+}
+.blog-two-sub-3 h5 {
+    color: #95a0ab ;
+}
+.blog-two-sub-3 h4:hover {
+    color:red;
+    cursor: pointer;
+}
+.blog-two-sub-3 a {
+    text-decoration: none;
+    color:red;
+}
+.blog-two-sub-3 a:hover {
+    color:black;
+}
+
+@media screen and (min-width:320px) and (max-width:1023px) {
+        .blog-one-sub { width: 100%;}
+        .blog-one-sub-content {width: 100%;}
+        .blog-two-sub {width: 100%; flex-direction: column;
+        align-items: center; }
+        .blog-two-sub-1 {width: 90%;}
+        .blog-two-sub-2 {width: 90%;padding: 20px 0;}
+        .blog-two-sub-3 {width: 90%;}
+}
+@media screen and (min-width:1024px) and (max-width:1900px) {
+    .blog-one-sub { width: 90%;}
+    .blog-one-sub-content {width: 90%;}
+    .blog-two-sub {width: 90%; }
+}

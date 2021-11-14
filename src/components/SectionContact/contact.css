@@ -1,0 +1,318 @@
+
+
+#contact {
+    width: 100%;
+    box-sizing: border-box;
+}
+.contact {
+    width: 100%;
+    
+}
+.contact-one {
+    width: 100%;
+    padding-top: 50px;
+    background-color: #f8f9fa;
+}
+.contact-one-sub {
+    width: 60%;
+    margin: auto; 
+    text-align: center;
+}
+.contact-one-sub-content {
+    width: 60%;
+    margin: auto;
+}
+.contact-one-sub-content h1 {
+    letter-spacing: 2px;
+    font-size: 1.75rem;
+    font-family: "Poppins", sans-serif;
+}
+.contact-one-sub-content hr {
+    width: 5%;
+    height: 2px;
+    background-color: red;
+}
+.contact-one-sub-content p {
+    color: #95a0ab ;
+    text-align: center;
+}
+
+.contact-two {
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: #f8f9fa;
+    padding-top: 30px;
+}
+.contact-two-sub {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+     
+    margin: auto;
+    position: relative;
+}
+.contact-two-sub-1 {
+    width: 40%;
+     
+    position: relative;
+    top:0;
+    transition: all 0.5s;
+}
+.contact-two-sub-1 p {
+    font-weight: bold;
+    color:black !important;
+}
+.contact-two-sub-1 span {
+    color: #95a0ab;
+}
+/*  sub1-end */
+.contact-two-sub-2 {
+    width: 60%; 
+     
+    position: relative;
+    top:0;
+    transition: all 0.5s;
+}
+.contact-two-sub-2 .inp1 {
+    width: 45%; height: 50px;
+    border-radius: 3px;
+    margin-right: 50px;
+}
+.contact-two-sub-2 .inp2 {
+    width: 45%; height: 50px;
+    border-radius: 3px;
+}
+.contact-two-sub-2 .inp3 {
+    width: 98%; height: 50px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+.contact-two-sub-2 .text {
+    width: 98%;
+    margin-top: 20px;
+}
+.contact-two-sub-2 button {
+    padding: 14px 16px;
+    background-color: red;
+    color: white;
+    position: relative;
+    top:0;
+    border:none;
+    border-radius: 3px;
+    margin:20px 0 0 80%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.contact-two-sub-2 button:hover {
+    top: -10px;
+}
+.contact-three {
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #f8fbff;
+}
+.contact-three-sub {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+     
+}
+.contact-three-sub-1{
+    width: 40%;
+}
+.contact-three-sub-1 ul {
+    margin-left: -50px;
+}
+.contact-three-sub-1 li {
+    display: inline;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.contact-three-sub-1 li:hover i {
+    color:red;
+}
+.contact-three-sub-1 i {
+    font-size: 30px;
+}
+.contact-three-sub-2 {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.contact-three-sub-2 i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.contact-three-sub-2 span {
+    font-size: 20px;
+   
+}
+
+.contact-three-sub-3 {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.contact-three-sub-3 i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.contact-three-sub-3 span {
+    font-size: 20px;
+   
+}
+
+.contact-four {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #272a33;
+}
+.contact-four li {
+    color: #95a0ab;
+    cursor: pointer;
+}
+.contact-four p,h4 {
+    color: white;
+}
+.contact-four-sub {
+    width: 60%;  
+     
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-four-sub-1 {
+    width: 25%;
+}
+.contact-four-sub-1 h4 {
+    margin-left: 35px;
+}
+.contact-four-sub-1 li {
+    list-style-type: none;
+}
+.contact-four-sub-2 {
+    width: 25%;
+}
+.contact-four-sub-2 h4 {
+    margin-left: 35px;
+}
+.contact-four-sub-2 li {
+    list-style-type: none;
+}
+
+
+.contact-four-sub-3 {
+    width: 25%;
+}
+.contact-four-sub-3 h4 {
+    margin-left: 35px;
+}
+.contact-four-sub-3 li {
+    list-style-type: none;
+}
+
+
+.contact-four-sub-4 {
+    width: 25%;
+}
+.contact-four-sub-4 h4 {
+    margin-left: 0px;
+}
+.contact-four-sub-4 li {
+    list-style-type: none;
+}
+.contact-four-sub-4 input {
+    width: 95%; height: 30px;
+    margin-top: 0px;
+    background-color: #2e313a;
+    border:none;
+}
+
+.contact-five {
+    width: 100%;
+    background-color: #2e313a;
+}
+.contact-five-sub {
+    width: 60%; 
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact-five-sub-1 {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.contact-five-sub-2 {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.contact-five-sub-2 img {
+    width: 40%; height:40px;
+}
+
+@media screen and (min-width:320px) and (max-width:1023px) {
+        .contact-one-sub {width: 100%;}
+        .contact-one-sub-content {width: 100%;}
+
+        .contact-two-sub {width: 100%; flex-direction: column;
+        align-items: center; }
+        .contact-two-sub-1 {width: 90%;}
+        .contact-two-sub-2 {width: 90%;}
+        .contact-two-sub-2 .inp1 {width: 98%;margin: 10px 0;}
+        .contact-two-sub-2 .inp2 {width: 98%;}
+        .contact-two-sub-2 button {margin:20px 0 0 55%;}
+
+        .contact-three-sub {width: 100%; flex-direction: column;
+        }
+        .contact-three-sub-1 {width: 100%;}
+        .contact-three-sub-2 {width: 100%; justify-content: start;
+        margin: 10px 0;}
+        .contact-three-sub-3 {width: 100%; justify-content: start;}
+        
+        .contact-four-sub {width: 100%; flex-direction: column;
+        justify-content: start;}
+        .contact-four-sub-1 {width: 100%;}
+        .contact-four-sub-2 {width: 100%;}
+        .contact-four-sub-3 {width: 100%;}
+        .contact-four-sub-4 {width: 80%; margin-left: 35px;
+        box-sizing: border-box;}
+        .contact-four-sub-4 p {width: 80%;}
+        .contact-four-sub-4 input {width: 80%;}
+
+        .contact-five-sub {width: 100%; flex-direction: column; }
+        .contact-five-sub-1 {width: 90%;
+            box-sizing: border-box;margin-left: 35px;}
+        .contact-five-sub-2 {width: 100%;}
+ }
+
+ @media screen and (min-width:1024px) and (max-width:1900px) {
+    .contact-one-sub {width: 90%;}
+    .contact-one-sub-content {width: 60%;}
+
+    .contact-two-sub {width: 90%;  }
+    .contact-two-sub-2 .inp1 {
+        width: 98%; margin-bottom: 20px;
+    }
+    .contact-two-sub-2 .inp2 {
+        width: 98%; 
+    }
+    .contact-two-sub-2 button {
+        margin: 20px 0 0 70%
+    }
+
+    .contact-three-sub {width: 90%;}
+    
+    .contact-four-sub {width: 90%;}
+    
+
+    .contact-five-sub {width: 90%; }
+    
+}

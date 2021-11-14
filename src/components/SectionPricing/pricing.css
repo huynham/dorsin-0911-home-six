@@ -1,0 +1,211 @@
+
+#pricing {
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.pricing {
+    width: 60%; 
+    margin: auto;
+     
+}
+.pricing-one {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.pricing-one-content {
+    width: 60%; height:200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.pricing-one-content h1 {
+    letter-spacing: 2px;
+    font-size: 1.75rem;
+    font-family: "Poppins", sans-serif;
+}
+.pricing-one-content hr {
+    width: 5%;
+    height: 2px;
+    background-color: red;
+}
+.pricing-one-content p {
+    color: #95a0ab ;
+    text-align: center;
+}
+
+.pricing-two {
+    width: 100%;
+    display: flex;
+
+    justify-content: space-between;
+}
+.pricing-two h4 {
+    color:black;
+}
+.pricing-two b {
+    color:red;
+}
+.pricing-two-1 {
+    width: 31%; height:550px;
+   text-align: center;
+   box-sizing: border-box;
+   padding-top: 50px;
+     
+    position: relative;
+    top:0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #95a0ab;
+    transition: all 0.5s;
+}
+.pricing-two-1 h4 {
+    font-size: 15px;  
+    margin: 0 !important;
+}
+.pricing-two-1 h1 {
+    font-size: 36px;  
+    margin: 0;
+}
+.pricing-two-1 h6 {
+    color: #95a0ab ;  
+    margin: 0;
+}
+.pricing-two-1 hr {
+    width: 70%;
+    margin: 30px auto;
+}
+.pricing-two-1 p {
+    margin:30px 0;
+}
+.pricing-two-1 a {
+    background-color: red;
+    padding: 10px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 0;
+    transition: all 0.5s;
+}
+.pricing-two-1:hover {
+    top:-10px;
+}
+.pricing-two-1 a:hover {
+    top:-10px;
+}
+ /*============= */
+ .pricing-two-2 {
+    width: 31%; height:550px;
+   text-align: center;
+   box-sizing: border-box;
+   padding-top: 50px;
+     
+    position: relative;
+    top:0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #95a0ab;
+    transition: all 0.5s;
+}
+.pricing-two-2 h4 {
+    font-size: 15px;  
+    margin: 0 !important;
+}
+.pricing-two-2 h1 {
+    font-size: 36px;  
+    margin: 0;
+}
+.pricing-two-2 h6 {
+    color: #95a0ab ;  
+    margin: 0;
+}
+.pricing-two-2 hr {
+    width: 70%;
+    margin: 30px auto;
+}
+.pricing-two-2 p {
+    margin:30px 0;
+}
+.pricing-two-2 a {
+    background-color: red;
+    padding: 10px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 0;
+    transition: all 0.5s;
+}
+.pricing-two-2:hover {
+    top:-10px;
+}
+.pricing-two-2 a:hover {
+    top:-10px;
+}
+/* ============*/
+
+.pricing-two-3 {
+    width: 31%; height:550px;
+   text-align: center;
+   box-sizing: border-box;
+   padding-top: 50px;
+     
+    position: relative;
+    top:0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #95a0ab;
+    transition: all 0.5s;
+}
+.pricing-two-3 h4 {
+    font-size: 15px;  
+    margin: 0 !important;
+}
+.pricing-two-3 h1 {
+    font-size: 36px;  
+    margin: 0;
+}
+.pricing-two-3 h6 {
+    color: #95a0ab ;  
+    margin: 0;
+}
+.pricing-two-3 hr {
+    width: 70%;
+    margin: 30px auto;
+}
+.pricing-two-3 p {
+    margin:30px 0;
+}
+.pricing-two-3 a {
+    background-color: red;
+    padding: 10px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 0;
+    transition: all 0.5s;
+}
+.pricing-two-3:hover {
+    top:-10px;
+}
+.pricing-two-3 a:hover {
+    top:-10px;
+}
+
+@media screen and (min-width:320px) and (max-width:1023px) {
+    .pricing {width: 100%;}
+    .pricing-one-content {width: 100%;}
+    .pricing-two {flex-direction: column;align-items: center;}
+    .pricing-two-1 {width: 90%;}
+    .pricing-two-2 {width: 90%; margin: 10px 0;}
+    .pricing-two-3 {width: 90%;}
+
+}
+@media screen and (min-width:1024px) and (max-width:1900px) {
+    .pricing {width: 90%;}
+    .pricing-one-content {width: 60%;}
+    
+    
+
+}

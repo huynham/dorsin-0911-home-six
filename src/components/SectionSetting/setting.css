@@ -1,0 +1,85 @@
+
+#setting {
+ 
+   
+}
+.setting {
+    width: 50px; height:50px;
+    position: fixed;
+    z-index: 10;
+    top:200px; left:0;
+    
+}
+.setting-sub {
+    width: 50px; height:50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.setting-sub i {
+    color:white;
+    font-size: 30px;
+    cursor: pointer;
+    animation: quay 2s linear 0s infinite;
+    
+}
+@keyframes quay {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+
+.setting-color {
+    width: 200px; height: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    position: absolute;
+    left:-200px;
+    transition: all 0.5s;
+}
+#setting:hover .setting-color {
+    left:10px;
+}
+
+.setting-color span {
+    width: 50px; height:50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border:1px solid red;
+}
+.setting-color .sp1 {
+    background-color: red;
+}
+.setting-color .sp2 {
+    background-color: blue;
+}
+.setting-color .sp3 {
+    background-color: green;
+}
+.setting-color .sp4 {
+    background-color: pink;
+}
+.setting-color .sp5 {
+    background-color: black;
+}
+.setting-color .sp6 {
+    background-color: gold;
+}
+.setting-color .sp7 {
+    background-color: saddlebrown;
+}
+.setting-color .sp8 {
+    background-color: burlywood;
+}
+.setting-color .sp9 {
+    background-color: palegreen;
+}
+
+
+@media screen and (min-width:320px) and (max-width:1023px) {
+    #setting {display:none;}
+}
